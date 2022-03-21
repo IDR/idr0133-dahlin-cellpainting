@@ -1,0 +1,20 @@
+---
+
+channels:
+  1:
+    label: "Nuclei"
+    color: "0000FF"
+  2:
+    label: "ER"
+    color: "00FF00"
+  3:
+    label: "Nucleoli/Cytoplasmic RNA"
+    color: "FFFF00"
+  4:
+    label: "Actin/Golgi/Membrane"
+    color: "FFA500"
+    active: false
+  5:
+    label: "Mitochondria"
+    color: "FF0000"
+    active: false
