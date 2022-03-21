@@ -1,0 +1,12 @@
+---
+target: "Screen:name:idr0133-dahlin-cellpainting/screenA"
+path: "idr0133-screenA-plates.tsv"
+continue: "true"
+transfer: "ln_s"
+skip:
+  - checksum
+  - thumbnails
+parallel_upload: "10"
+columns:
+    - name
+    - path
