@@ -3,6 +3,7 @@ target: "Screen:name:idr0133-dahlin-cellpainting/screenA"
 path: "idr0133-screenA-plates.tsv"
 continue: "true"
 transfer: "ln_s"
+exclude: "clientpath"
 skip:
   - checksum
   - minmax
