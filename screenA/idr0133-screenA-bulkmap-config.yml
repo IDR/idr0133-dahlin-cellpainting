@@ -1,0 +1,102 @@
+---
+name: idr0133-dahlin-cellpainting/screenA
+version: 1
+
+defaults:
+  include: false
+  type: string
+  includeclient: true
+  visible: true
+  omitempty: true
+
+columns:
+
+  - name: Experimental Condition [Treatment time (h)]
+    clientname: Treatment time (h)
+    include: true
+
+  - name: Experimental Condition [Experimental Batch]
+    clientname: Experimental Batch
+    include: true
+
+  - name: Control Type
+    clientname: Control Type
+    include: true
+
+  - name: Channels
+    clientname: Channels
+    include: true
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+        - name: Compound Name
+          clientname: Compound Name
+          include: true
+        - name: Compound PubChem CID
+          clientname: Compound Name URL
+          clientvalue: >
+            https://pubchem.ncbi.nlm.nih.gov/compound/{{ value|urlencode }}
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+        - name: Compound Concentration (microMolar)
+          clientname: Concentration (microMolar)
+          include: true
+        - name: Compound PubChem CID
+          clientname: PubChem CID
+          include: true
+        - name: Compound SMILES
+          clientname: SMILES
+          include: true
+        - name: Compound InChIKey
+          clientname: InChIKey
+          include: true
+        - name: Compound Class
+          clientname: Class
+          include: true
+        - name: Compound Purity (%)
+          clientname: Purity (%)
+          include: true
+        - name: Compound IUPAC
+          clientname: IUPAC
+          include: true
+        - name: Compound Unichem URL
+          clientname: Unichem URL
+          include: true
+        - name: Compound BRD
+          clientname: BRD
+          include: true
+        - name: Compound BRD (short)
+          clientname: BRD (short)
+          include: true
+        - name: Compound Manuscript Number
+          clientname: Manuscript Number
+          include: true
+
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: true
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+        - Compound Name
+        - Compound Name URL
