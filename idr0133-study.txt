@@ -22,7 +22,7 @@ Study Public Release Date
 # Study Publication																																	
 Study PubMed ID																																	
 Study Publication Title	Reference compounds for characterizing cellular injury in high-content cellular morphology assays																																
-Study Author List	Dahlin JL, Hua BK, Zucconi BE, Nelson Jr. SD, Singh S, Carpenter AE, Shrimp JH, Lima-Fernandes E, Wawer MJ, Agrawal A, Clemons PA, O’Reilly M, Barsyte-Lovejoy D, Szewczyk M, Li F, Vedadi M, Cuellar M, Lak P, Shoichet BK, Cole PA, Meier JL, Thomas T, Baell JB, Brown PJ, Walters MA, Schreiber SL, Wagner BK																															
+Study Author List	Dahlin JL, Hua BK, Zucconi BE, Nelson Jr. SD, Singh S, Carpenter AE, Shrimp JH, Lima-Fernandes E, Wawer MJ, Chung LPW, Agrawal A, Clemons PA, O’Reilly M, Barsyte-Lovejoy D, Szewczyk M, Li F, Lak P, Cuellar M, Cole PA, Meier JL, Thomas T, Baell JB, Brown PJ, Walters MA, Schreiber SL, Wagner BK																															
 Study PMC ID																																	
 Study DOI																																	
 																																	
