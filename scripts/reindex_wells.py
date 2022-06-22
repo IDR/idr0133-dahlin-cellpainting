@@ -1,4 +1,8 @@
 #! /usr/bin/env python3
+#
+# The Well.Row and Well.Column elements are expected to be
+# 0-based indexed but the original companion files had
+# 1-based indexed values
 
 import shutil
 import sys
