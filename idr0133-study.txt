@@ -20,11 +20,11 @@ Study BioImage Archive Accession
 Study Public Release Date	2022-07-05																																
 																																	
 # Study Publication																																	
-Study PubMed ID																																	
+Study PubMed ID	36914634																																	
 Study Publication Title	Reference compounds for characterizing cellular injury in high-content cellular morphology assays																																
-Study Author List	Dahlin JL, Hua BK, Zucconi BE, Nelson Jr. SD, Singh S, Carpenter AE, Shrimp JH, Lima-Fernandes E, Wawer MJ, Chung LPW, Agrawal A, Clemons PA, O’Reilly M, Barsyte-Lovejoy D, Szewczyk M, Li F, Lak P, Cuellar M, Cole PA, Meier JL, Thomas T, Baell JB, Brown PJ, Walters MA, Schreiber SL, Wagner BK																															
-Study PMC ID																																	
-Study DOI																																	
+Study Author List	Dahlin JL, Hua BK, Zucconi BE, Nelson Jr. SD, Singh S, Carpenter AE, Shrimp JH, Lima-Fernandes E, Wawer MJ, Chung LPW, Agrawal A, O’Reilly M, Barsyte-Lovejoy D, Szewczyk M, Li F, Lak P, Cuellar M, Cole PA, Meier JL, Thomas T, Baell JB, Brown PJ, Walters MA, Clemons PA, Schreiber SL, Wagner BK																															
+Study PMC ID	PMC10011410																															
+Study DOI	https://doi.org/10.1038/s41467-023-36829-x																																	
 																																	
 # Study Contacts																																	
 Study Person Last Name	Dahlin																																
